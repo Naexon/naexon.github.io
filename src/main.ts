@@ -21,7 +21,7 @@ function init() {
     strings: [],
   });
   // use .exec with an async function to awat button press
-  typed.delete().type("Workflow Test").options({speed: 1000, lifeLike: true}).go();
+  typed.delete().type("Workflow").options({speed: 1000, lifeLike: true}).go();
   typed.reset();
   typed.delete().type("test2").options({speed: 1000, lifeLike: true}).go();
 
