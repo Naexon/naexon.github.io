@@ -2,6 +2,7 @@ import TypeIt from "typeit";
 
 import './style.css'
 
+
 document.addEventListener("DOMContentLoaded", init);
 
 /** Initialize app */
