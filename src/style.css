@@ -1,0 +1,83 @@
+:root {
+
+  --font-family: "Space Mono", monospace;
+  --foreground-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+
+  25% {
+    scale: 1.2 0.8;
+  }
+
+  50% {
+    scale: 0.8 1.2;
+  }
+
+  75% {
+    scale: 1.2 0.8;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+main * {
+  position: relative;
+  z-index: 10;
+}
+
+#blob {
+  background-color: white;
+  height: 30vmax;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(#e66465, #9198e5);
+  animation: rotation 20s infinite linear;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  backdrop-filter: blur(12vmax);
+}
