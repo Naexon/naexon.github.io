@@ -41,6 +41,7 @@ body {
   background-color: var(--background-color);
 
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
 }
 
@@ -48,8 +49,8 @@ body {
   margin: auto;
 
   height: 100%;
-  width: 100%;
-  max-width: 498px;
+  width: 90%;
+  max-width: 554px;
 
   display: flex;
   flex-direction: column;
@@ -90,6 +91,7 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 32px;
+  flex-wrap: wrap;
 }
 
 .socials svg {
