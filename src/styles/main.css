@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Major Mono Display";
+  src: url(assets/fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Darker Grotesque";
+  src: url(assets/fonts/DarkerGrotesque-Light.ttf);
+}
+
+:root {
+  --headline-font-size: 48px;
+  --headline-font-family: "Major Mono Display", monospace;
+  --headline-margin: 72px 0 24px 0;
+
+  --content-font-size: 24px;
+  --content-font-family: "Darker Grotesque", monospace;
+  --content-margin: 0 0 24px 0;
+
+  --socials-margin: auto 0 24px 0;
+
+  --foreground-color: #E4E4E4;
+  --background-color: #242424;
+
+  color-scheme: dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex-container {
+  margin: auto;
+
+  height: 100%;
+  width: 100%;
+  max-width: 498px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+
+.flex-container > * {
+  width: inherit;
+  max-width: inherit;
+
+  word-wrap: break-word;
+}
+
+.flex-container > .headline {
+  margin: var(--headline-margin);
+
+  text-align: center;
+
+  font-size: var(--headline-font-size);
+  font-family: var(--headline-font-family);
+}
+
+.flex-container > .content {
+  margin: var(--content-margin);
+
+  text-align: justify;
+  
+  font-size: var(--content-font-size);
+  font-family: var(--content-font-family);
+}
+
+.flex-container > .socials {
+  margin: var(--socials-margin);
+
+  display: flex;
+  justify-content: center;
+}
