@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Major Mono Display";
-  src: url(assets/fonts/MajorMonoDisplay-Regular.ttf);
+  src: url(../assets/fonts/MajorMonoDisplay-Regular.ttf);
 }
 
 @font-face {
   font-family: "Darker Grotesque";
-  src: url(assets/fonts/DarkerGrotesque-Light.ttf);
+  src: url(../assets/fonts/DarkerGrotesque-Light.ttf);
 }
 
 :root {
@@ -89,4 +89,14 @@ body {
 
   display: flex;
   justify-content: center;
+  column-gap: 32px;
+}
+
+.socials svg {
+  height: 32px;
+  width: 32px;
+}
+
+.socials svg path {
+  fill: var(--foreground-color);
 }
