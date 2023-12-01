@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <title>Logo</title>
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="100" cy="100" fill="#242424" id="svg_4" r="100" stroke="#000000" stroke-width="0"/>
+  <g fill="#e4e4e4" fill-rule="evenodd" id="svg_8" stroke-linecap="round" transform="matrix(4.2, 0, 0, 4.2, 50, 50)">
+   <path d="m8.72,21.21l3.15,-11.67l-1.92,-7.14l12.39,0l-5.61,20.88l-1.17,0l-3.12,-11.61l-3.12,11.61l-1.17,0l-5.61,-20.88l1.14,0l5.04,18.81zm7.44,0l4.74,-17.7l-9.51,0l1.62,6.03l3.15,11.67z" id="svg_10"/>
+  </g>
+ </g>
+</svg>
