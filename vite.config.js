@@ -3,7 +3,7 @@ import { resolve, join } from "path";
 import { sync } from "glob";
 
 export default defineConfig(({_command, _mode}) => ({
-    base: resolve(__dirname),
+    base: "/",
     root: join(__dirname, "src"),
     build: {
         outDir: join(__dirname, "dist"),
