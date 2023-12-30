@@ -1,0 +1,7 @@
+.not-found > * {
+    text-align: center;
+}
+
+.not-found > .headline {
+    margin: auto 0 48px 0;
+}
