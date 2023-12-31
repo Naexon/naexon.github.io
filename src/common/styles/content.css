@@ -1,0 +1,21 @@
+:root {
+    --content-margin: 0 0 24px 0;
+    --content-font-size: 24px;
+    --content-font-family: "Darker Grotesque", monospace;
+}
+
+.content {
+    text-align: justify;
+
+    font-size: var(--content-font-size);
+    font-family: var(--content-font-family);
+}
+
+.content > * {
+    margin: var(--content-margin);
+}
+
+.content a {
+    color: var(--text-link-color);
+    text-decoration: none;
+}

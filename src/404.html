@@ -10,20 +10,17 @@
     <meta name="robots" content="noindex, noarchive" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/404.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="common/assets/icons/favicon.ico" />
   </head>
   <body>
-    <main class="flex-container not-found">
-      <h1 class="headline">
-        <a href="https://xkcd.com/1969/">
+    <main class="flex-container ">
+      <div class="not-found">
+          <a href="https://xkcd.com/1969/" class="image-link">
             <img src="https://imgs.xkcd.com/comics/not_available.png" alt="404 - Not Found" />
-        </a>
-      </h1>
-      <div class="content">
-        <p>
-            Nothing to see here. Go back to the <a href="/">main page</a>.
+          </a>
+        <p class="error-text">
+          Nothing to see here. Go back to the <a href="/">main page</a>.
         </p>
       </div>
       <div class="socials">
@@ -45,4 +42,5 @@
      </div>
     </main>
   </body>
+  <script src="scripts/index.ts" type="module"></script>
 </html>
