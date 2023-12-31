@@ -1,0 +1,32 @@
+@import url(/common/styles/base.css);
+@import url(/common/styles/flex.css);
+@import url(/common/styles/socials.css);
+
+:root {
+    --not-found-font-size: 24px;
+    --not-found-font-family: "Darker Grotesque", monospace;
+}
+
+.not-found {
+    margin: auto 0 0 0;
+
+    text-align: center;
+
+    font-size: var(--not-found-font-size);
+    font-family: var(--not-found-font-family);
+}
+
+.not-found .image-link {
+    display: block;
+    width: 100%;
+}
+
+.not-found .error-text {
+    margin: 1em 0 0 0;
+}
+
+.not-found .error-text > a {
+    color: var(--text-link-color);
+
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+:root {
+    --headline-margin: 48px 0 24px 0;
+    --headline-font-size: 48px;
+    --headline-font-family: "Major Mono Display", monospace;
+}
+
+.headline {
+    margin: var(--headline-margin);
+
+    text-align: center;
+
+    font-size: var(--headline-font-size);
+    font-family: var(--headline-font-family);
+}

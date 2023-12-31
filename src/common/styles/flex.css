@@ -1,0 +1,25 @@
+:root {
+    --flex-max-width: 554px;
+}
+
+.flex-container {
+    margin: auto;
+
+    height: 100%;
+    width: 90%;
+    max-width: var(--flex-max-width);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+
+.flex-container>* {
+    width: inherit;
+    max-width: inherit;
+
+    word-wrap: break-word;
+}

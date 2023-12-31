@@ -1,0 +1,25 @@
+:root {
+    --socials-margin: auto 0 0 0;
+    --socials-padding: 24px 0 48px 0;
+    --socials-icon-size: 32px;
+    --socials-icon-gap: 32px;
+}
+
+.socials {
+    margin: var(--socials-margin);
+    padding: var(--socials-padding);
+
+    display: flex;
+    justify-content: center;
+    column-gap: var(--socials-icon-gap);
+    flex-wrap: wrap;
+}
+
+.socials svg {
+    height: var(--socials-icon-size);
+    width: var(--socials-icon-size);
+}
+
+.socials svg path {
+    fill: var(--foreground-color);
+}

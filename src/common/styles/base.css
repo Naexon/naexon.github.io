@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Major Mono Display";
+    src: url(../assets/fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Darker Grotesque";
+    src: url(../assets/fonts/DarkerGrotesque-Light.ttf);
+}
+
+:root {
+    --flex-max-width: 554px;
+
+    --foreground-color: #F4F4F4;
+    --background-color: #242424;
+
+    --text-link-color: #A9A9A9;
+
+    --vh: 1vh;
+
+    color-scheme: dark;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--foreground-color);
+    background-color: var(--background-color);
+
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100vw;
+}

@@ -13,6 +13,7 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
+    "glob": "^10.3.10",
     "typeit": "^8.7.1"
   }
 }
